@@ -14,7 +14,7 @@ export default function Home() {
       <Link href="/posts/mynewpage" prefetch={false}>
         <a>Load a Post</a>
       </Link>
-
+      <a href="/posts/mynewpage2">Load a Post No prefetch</a>
     </div>
   );
 }
